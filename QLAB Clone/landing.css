@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter Variable', sans-serif;
 }
 header{
    width: 100%;
@@ -108,9 +109,11 @@ nav{
 
 }
 .ourmission_head {
+    
     text-align: center;
     align-items: center;
     font-weight: bolder;
+    font-size: 20px;
     margin: 68px;
 
 }
@@ -129,7 +132,7 @@ nav{
 }
 .ourmission_img2 {
     position: absolute;
-    bottom: 52px;
+    top: 211px;
 
 }
 .ourmission_img2 img{
@@ -138,12 +141,11 @@ nav{
 
 }
 .ourmission_content{
-    /* width: 751px; */
-    height: 704px;
+    height: 300PX;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 26px;
     line-height: 65px;
-    margin-left: 33px;
+    margin-left: 73px;
 }
 .ourmission_content span{
     font-weight: 600;
@@ -178,7 +180,7 @@ nav{
 
     .ourmission_img2 {
         position: absolute; /* Remove absolute positioning for smaller screens */
-        bottom: 0px;
+        TOP: 186px;
     }
 
     .ourmission_img2 img {
@@ -307,7 +309,7 @@ nav{
 .our_products{
     width: 100%;
  height: 1260px;
- margin-top: 25vh;
+ /* margin-top: 15vh; */
 }
 
 .our_products_box1{
@@ -525,7 +527,7 @@ padding: 200px 36px;
     display: flex;
     flex-direction: row;
 
-    padding: 83px 0px;
+    padding: 110px 0px;
     
 }
 .Get_intouch_pic img{
@@ -626,7 +628,8 @@ footer{
 
 .btnl {
     position: relative;
-    right: 61px;
+    left: 254px;
+    bottom: 43px;
     border-radius: 100px;
     background-color: rgba(210, 60, 167, 1);
     color: white;
